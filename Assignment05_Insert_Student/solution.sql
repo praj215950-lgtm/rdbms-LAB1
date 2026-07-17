@@ -1,3 +1,10 @@
-use colleageDBBCA;
-INSERT INTO Student(StudentID,StudentName,Gender,DepartmentID) VALUES(1001,'Arun','Male',101),(1002,'Divya','female',102),(1003,'Karthik','Male',101);
-SELECT*FROM Student;
+
+INSERT INTO Course (CourseID, CourseName, Credits, DepartmentID)
+VALUES
+(101, 'Database Management', 4, 10),
+(102, 'Computer Networks', 3, 20),
+(103, 'Operating Systems', 4, 30);
+
+DESCRIBE Course;
+
+SELECT * FROM Course;
