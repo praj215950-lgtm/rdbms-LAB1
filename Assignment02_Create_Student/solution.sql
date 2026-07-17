@@ -1,3 +1,9 @@
-use colleagedbBCA;
-Create Table Student(Student_ID INT(5) PRIMERY KEY,Student VARCHAR(20,DOB Date GENDER VARCHAR(10) Department INT(5),CONTRAINT UQ_student UNIQUE(Student_Name);
-Select*from student
+create table student (
+   studentID INT(5) PRIMARY KEY,
+   studentName varchar(20) not null,
+   DOB date,
+   gender varchar(10),
+   departmentID INT(5),
+);
+
+describe student;
